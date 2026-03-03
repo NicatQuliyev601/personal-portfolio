@@ -1,0 +1,174 @@
+
+
+
+
+Nicat Quliyev
+
+
+
+Java Developer
+
+Baku, quliyevv.nicat2003@gmail.com ,
+
++994502858581,
+
+linkedin.com/in/nicatquliyev, github.com/NicatQuliyev601 , gitlab.com/NicatQuliyev
+
+
+
+
+
+SUMMARY
+
+Accomplished Java developer with experience in software development, showcasing proficiency through various programming trainings. Skilled in creating and implementing innovative solutions, collaborating with teams for high- quality project delivery, and committed to continuous learning and professional growth in the field of software development.
+
+
+
+
+
+PROFESSIONAL EXPERIENCE
+
+
+
+Sinam, Baku
+
+
+
+Java Developer	July, 2024 – present
+
+
+
+Developed and maintained Java-based applications for various client projects, ensuring optimal performance and scalability.
+
+Integrated complex systems using Java frameworks, improving interoperability between different IT solutions.
+
+Worked on database management and optimization, utilizing Java and SQL to ensure smooth data operations.
+
+Participated in code reviews, bug fixing and testing to ensure the quality and reliability of the software
+
+
+
+Yelo Bank, Baku
+
+
+
+Java Developer Intern	April, 2023 – June, 2023
+
+
+
+Collaborated with a team of developers to contribute to the development of the bank’s backend systems.
+
+Gained practical experience in Java, Spring boot and PL/SQL, working on various aspects of applications
+
+Participated in code reviews, bug fixing and testing to ensure the quality and reliability of the software
+
+Successfully converted the tomcat monolith service into microservices, improving system scalability and flexibility.
+
+Ensured compliance with security standards and best practices in encryption techniques for banking applications.
+
+
+
+Azerbaijan Republic State Customs Committee, Baku
+
+
+
+Volunteer	July, 2022 – September, 2022
+
+
+
+Assisted guests at the airport by answering questions and providing assistance.
+
+Interacted with individuals in Azerbaijani, English and Russian languages to ensure effective communication and support.
+
+Collaborated with the team to create a welcoming environment and enhance the guest experience.
+
+Collaborated with the team to maintain a safe and secure environment for travelers and staff.
+
+
+
+
+
+DIGITAL SKILLS
+
+Java | Spring Boot | Git | SQL | HTML | CSS | JavaScript | Docker | Kubernetes | RabbitMQ/Kafka | Redis | data structure/algorithm
+
+
+
+
+
+Achievements & Certificates
+
+Java Backend Programming (atlacademy.az/certificate)	2021 – 2022
+
+
+
+Completed a comprehensive Java Backend programming course where I gained proficiency In Java and Spring Boot     
+
+development.
+
+Microservices Development (ingress-academy)	2023 – 2023
+
+
+
+Successfully completed a course in Microservices Development, gaining practical skills in designing and implementing microservices architectures.
+
+Advanced Full stack Backend Programming (Code Academy & Technest)	2023 – 2024
+
+
+
+Successfully completed the Advanced Java Backend Programming course, where I gained in-depth knowledge of Java, including advanced concepts in Spring Boot, RESTful services, database integration, and best practices for building scalable, secure backend applications.
+
+
+
+
+
+PROJECTS
+
+Learning Management System
+
+Description: LMS is a web application built using Java Spring Boot for managing learning management system functionalities. It allows administrators, teachers, and students to interact with courses, assignments, grades, and more.
+
+GitHub repository: https://github.com/NicatQuliyev601/lms-project
+
+
+
+Task Management
+
+Description: Developed an online task management application using Java, Spring boot ,PostgreSQL and Kafka. Implemented user authentication task creation task assignment.
+
+GitLab repository: gitlab.com/NicatQuliyev/task-management
+
+
+
+Tour Travel Bot
+
+Description: Developed tour telegram bot using Java, Spring boot, PostgreSQL, Redis and Kafka. And created an app where tour companies can send offers to clients according clients’ answers to questions in telegram bot.
+
+GitHub repository: github.com/NicatQuliyev601/Tour-telegram-bot
+
+
+
+EDUCATION AND TRAININGS
+
+
+
+Master degree in Project Management | Azerbaijan Technical University (Baku, 2024 – present)
+
+Advanced Backend Developer| Code Academy (Baku, 12/2023- 03/2024) Microservices Development| Ingress Academy (Baku, 01/2023- 05/2023) Java Backend Programming | ATL Academy (Baku, 06/2021- 03/2022)
+
+Bachelor's degree in Computer Science | Azerbaijan State Oil and Industry University (Baku, 2020- 2024)
+
+  
+
+Additional Information
+
+
+
+Languages: Azerbaijani-native, English-Intermediate, Russian-Intermediate
+
+Project Management tools: Jira, Trello, Slack
+
+
+
+
+
