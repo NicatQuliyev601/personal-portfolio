@@ -2,13 +2,17 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
+import { useTheme } from "next-themes";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
+    setMounted(true);
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
@@ -50,17 +54,37 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
+
+            {/* Theme Toggle */}
+            {mounted && (
+              <button
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                className="p-2 rounded-lg text-zinc-500 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800 transition-colors"
+                aria-label="Toggle Theme"
+              >
+                {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              </button>
+            )}
+
             <a
               href="/NicatQuliyev_Resume.docx"
               download="NicatQuliyev_Resume.docx"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md justify-center text-sm font-medium transition-colors"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md justify-center text-sm font-medium transition-colors shadow-sm"
             >
               Resume
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
-          <div className="flex items-center md:hidden">
+          {/* Mobile Menu Button & Theme Toggle */}
+          <div className="flex items-center md:hidden gap-2">
+            {mounted && (
+              <button
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                className="p-2 rounded-lg text-zinc-500 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800 transition-colors"
+              >
+                {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              </button>
+            )}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-zinc-400 hover:text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800 focus:outline-none"
@@ -89,7 +113,7 @@ export default function Navbar() {
             <a
               href="/NicatQuliyev_Resume.docx"
               download="NicatQuliyev_Resume.docx"
-              className="block w-full text-center px-4 py-2 mt-4 text-base font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md"
+              className="block w-full text-center px-4 py-2 mt-4 text-base font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md shadow-sm"
             >
               Download Resume
             </a>
